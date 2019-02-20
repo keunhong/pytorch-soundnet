@@ -1,6 +1,6 @@
 # pytorch-soundnet
 
-A PyTorch port of (SoundNet)[https://github.com/cvondrick/soundnet].
+A PyTorch port of [SoundNet](https://github.com/cvondrick/soundnet).
 
 
 Requirements
