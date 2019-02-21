@@ -52,7 +52,7 @@ def main():
     model.conv8_scns.bias.data.copy_(bias)
 
     print(f" * Saving pytorch model to {args.out_path!s}")
-    torch.save(model, args.out_path)
+    torch.save(model.state_dict(), args.out_path)
 
 
 if __name__ == '__main__':

@@ -9,6 +9,19 @@ Requirements
  * PyTorch >=1.0
 
 
+Usage
+=====
+
+
+```python
+import torch
+from soundnet import SoundNet
+
+model = SoundNet()
+model.load_state_dict(torch.load('soundnet8_final.pth'))
+```
+
+
 References
 ==========
 
